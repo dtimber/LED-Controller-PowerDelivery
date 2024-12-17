@@ -3,12 +3,14 @@ Controller for WS2812B/SK6812 LEDs specially made for monitor backlighting with 
 
 [Video example @ YouTube](https://youtu.be/EE_DajBsjAQ)
 
-Controller can be attached to VESA 75 / 100 monitor mount using the case included in this repo.
+Controller can be attached to VESA 75 / 100 monitor mount using the case included in this repo:
 
 ![Front](https://github.com/dtimber/LED-Controller-PowerDelivery/blob/main/Pictures/LED-Controller-PD_2024-Dec-17_01-49-33PM-000_CustomizedView2065316698.png)
 
-
-Firmware can be flashed without additional USB power delivery supply connected to J1. Simply use J2 for programming.
+Features:
+* Firmware can be flashed without additional USB power delivery supply connected to J1. Simply use J2 for programming.
+* Single cable connection possible (for PCs with PD-compatible motherboards / extension cards [e.g. Inateck KU8212 / Delock 89001])
+* LED power output protected by electronic fuse (output will be cut off if current is > 5 A / Auto-Retry after 400 ms)
 
 Required WLED GPIO Settings:
 * GPIO2 -> LED data output
