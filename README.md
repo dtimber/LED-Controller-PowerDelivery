@@ -24,3 +24,6 @@ Additional Parts required:
 * 3x M3 screws (countersunk head e.g. ISO 10642 / length: 12 mm) for the case
 * 1x connector 538-43645-0300 for the LED stripe cable
 * 3x contacts 43030-0007 for the LED stripe cable
+
+Measured buck converter efficiency:
+![Efficiency](https://github.com/dtimber/LED-Controller-PowerDelivery/blob/main/Pictures/MeasuredEfficiency.png)
