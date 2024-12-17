@@ -26,4 +26,5 @@ Additional Parts required:
 * 3x contacts 43030-0007 for the LED stripe cable
 
 Measured buck converter efficiency:
+
 ![Efficiency](https://github.com/dtimber/LED-Controller-PowerDelivery/blob/main/Pictures/MeasuredEfficiency.png)
