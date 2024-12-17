@@ -1,18 +1,18 @@
 # LED-Controller-PowerDelivery
-Controller for WS2812B LEDs specially made for monitor backlighting with [WLED](https://kno.wled.ge/) and [Lightpack](https://github.com/psieg/Lightpack).
+Controller for WS2812B/SK6812 LEDs specially made for monitor backlighting with [WLED](https://kno.wled.ge/) and [Lightpack](https://github.com/psieg/Lightpack).
 
 [Video example @ YouTube](https://youtu.be/EE_DajBsjAQ)
 
 Controller can be attached to VESA 75 / 100 monitor mount using the case included in this repo.
 
-Firmware can be flashed without additional USB power delivery charger connected to J1. Simply use J2 for programming
+![Front](https://github.com/dtimber/LED-Controller-PowerDelivery/blob/main/Pictures/LED-Controller-PD_2024-Dec-17_01-49-33PM-000_CustomizedView2065316698.png)
 
-Controller uses two pin headers to control the power for the LEDs:
-* Always on -> LEDs will always be powered by power supply
-* USB Power present -> LEDs will be powered by power supply if 5V on USB connector is present
-* Software Control -> LEDs can be switched on and off within WLED firmware (relay function on GPIO 15)
 
-![Front](https://github.com/dtimber/LED-Controller-BarrelJack/blob/main/Pictures/Rendering.PNG)
+Firmware can be flashed without additional USB power delivery supply connected to J1. Simply use J2 for programming.
+
+Required WLED GPIO Settings:
+* GPIO2 -> LED data output
+* GPIO15 -> LED power output (WLED relay function)
 
 Additional Parts required:
 * 1x USB Power Delivery Supply with 30 W (15V / 2 A)
