@@ -19,7 +19,7 @@ Required WLED GPIO Settings:
 
 Additional Parts required:
 * 1x USB Power Delivery Supply with 30 W (15 V / 2 A)
-* 1x USB Type A to C or Type C to C cable
+* 1x USB Type C to C cable
 * 3x M3 insert nuts (outer diameter: 4.6 mm / length: 6 mm) for the case
 * 3x M3 screws (countersunk head e.g. ISO 10642 / length: 12 mm) for the case
 * 1x connector 538-43645-0300 for the LED stripe cable
