@@ -5,7 +5,7 @@ LED Controller with USB PD input for WS2812B/SK6812 LEDs specially made for moni
 
 LED Controller can be attached to VESA 75 / 100 monitor mount using the case included in this repo:
 
-![Front](https://github.com/dtimber/LED-Controller-PowerDelivery/blob/main/Pictures/LED-Controller-PD_2024-Dec-17_01-49-33PM-000_CustomizedView2065316698.png)
+![Front](https://github.com/dtimber/LED-Controller-PowerDelivery/blob/main/Pictures/Rendering.PNG)
 
 **Features:**
 * Integrated 5 V buck converter for output currents up to 5 A (25 W). Minimizes risk of LED flickering / wrong colors caused by voltage drop by power supply cables, connectors, etc.
