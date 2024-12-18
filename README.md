@@ -1,5 +1,5 @@
 # LED-Controller-PowerDelivery
-LED Controller with USB PD input for WS2812B/SK6812 LEDs specially made for monitor backlighting with [WLED](https://kno.wled.ge/) and [Lightpack](https://github.com/psieg/Lightpack).
+ESP8266 LED Controller with USB PD input for WS2812B/SK6812 LEDs specially made for monitor backlighting with [WLED](https://kno.wled.ge/) and [Lightpack](https://github.com/psieg/Lightpack).
 
 [Video example @ YouTube](https://youtu.be/EE_DajBsjAQ)
 
