@@ -18,7 +18,7 @@ LED Controller can be attached to VESA 75 / 100 monitor mount using the case inc
 * GPIO15 -> LED power output (WLED relay function)
 
 **Additional Parts required:**
-* 1x USB Power Delivery Supply with 30 W (15 V / 2 A)
+* 1x USB Power Delivery Supply with at least 30 W (15 V / 2 A)
 * 1x USB Type C to C cable
 * 3x M3 insert nuts (outer diameter: 4.6 mm / length: 6 mm) for the case
 * 3x M3 screws (countersunk head e.g. ISO 10642 / length: 12 mm) for the case
